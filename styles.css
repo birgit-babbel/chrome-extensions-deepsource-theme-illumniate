@@ -1,0 +1,20 @@
+/* increase selector specificity to override the page's default styles */
+html body {
+  .bg-ink-300 {
+    background-color: #3f3e3e;
+  }
+  .bg-ink-400 {
+    background-color: #3f3e3e;
+  }
+
+  .text-slate {
+    color: #888;
+  }
+  .text-vanilla-400 {
+    color: rgb(192 193 195);
+  }
+
+  .z-chart-wrapper .axis text, .z-chart-wrapper .chart-label, .z-chart-wrapper .graph-svg-tip.comparison .title, .z-chart-wrapper .graph-svg-tip.comparison li .tooltip-label, .z-chart-wrapper .legend-dataset-label, .z-chart-wrapper .legend-dataset-value, .z-chart-wrapper .y-regions .chart-label {
+    fill: #929ea2 !important;
+  }
+}
