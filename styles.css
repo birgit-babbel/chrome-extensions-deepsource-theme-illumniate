@@ -1,10 +1,13 @@
 /* increase selector specificity to override the page's default styles */
 html body {
+  .bg-ink-200 {
+    background-color: #333;
+  }
   .bg-ink-300 {
     background-color: #3f3e3e;
   }
   .bg-ink-400 {
-    background-color: #3f3e3e;
+    background-color: #3f3e3e !important;
   }
 
   .text-slate {
